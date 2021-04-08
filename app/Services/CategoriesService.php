@@ -14,6 +14,6 @@ class CategoriesService
     }
 
     public function getCategories() {
-        return$this->categoriesModel->getCategories();
+        return $this->categoriesModel->getCategories();
     }
 }

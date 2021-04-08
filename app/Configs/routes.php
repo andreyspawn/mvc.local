@@ -12,6 +12,11 @@ return [
     'news' => 'news/index',
     'comment' => 'comments/store',
     '^\s*$' => 'index/index',
+    //add work with categories
+    'categories/create' => 'categories/create',
+    'categories/admin' => 'categories/read',
+    'categories/update/([0-9]+)' => 'categories/update/$1',
+    'categories/delete/([0-9]+)' => 'categories/delete/$1'
 ];
 
 ?>

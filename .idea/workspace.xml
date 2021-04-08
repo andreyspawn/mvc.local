@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="81650202-19d0-4343-b8a0-b31de26d84e9" name="Default Changelist" comment="" />
+    <list default="true" id="81650202-19d0-4343-b8a0-b31de26d84e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Controllers/CategoriesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Configs/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Configs/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/CategoriesService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/CategoriesService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/layouts/categories_template_view.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/categories_template_view.phtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,12 +42,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1qnPMd7JopcetKmopSwSvQZyS1P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,17 +76,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617712333752</updated>
-      <workItem from="1617712334757" duration="8517000" />
+      <workItem from="1617712334757" duration="14559000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1617871006663">
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1617871769932">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617871006663" />
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617871769932" />
+    <state x="838" y="418" key="Github.ShareDialog" timestamp="1617871724302">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="838" y="418" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617871724302" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1617880149445">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617880149445" />
+    <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1617871833078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="311" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1617871833078" />
   </component>
 </project>
