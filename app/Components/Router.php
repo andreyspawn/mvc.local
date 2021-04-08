@@ -42,6 +42,7 @@ class Router
                     //получаем строку адреса в виде внутреннего маршрута с подставновкой из routers.php
                     $internalRoute = preg_replace("~$uriPattern~", $path, $uri); // получаем строку адреса в нужном нам виде
 
+
                     $segments = explode('/', $internalRoute); // разбиваем строку адреса на части в массив
 
                     $controllerName = '\\App\\Controllers\\'. ucfirst(array_shift($segments) . 'Controller'); // первый элемент массива берём в имя контроллера

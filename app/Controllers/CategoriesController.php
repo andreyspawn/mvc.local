@@ -2,15 +2,17 @@
 
 namespace App\Controllers;
 
+use App\Models\Categories;
 use Exception;
 use App\Services\NewsService;
 
 class CategoriesController extends Controller {
-    private $categories;
+    private Categories $categoriesList;
 
     function __construct()
     {
         parent::__construct();
+        $this -> categoriesList = new Categories();
     }
 //'categories/create' => 'categories/create',
 //'categories/admin' => 'categories/read',
@@ -23,6 +25,8 @@ class CategoriesController extends Controller {
 
     function read() {
         echo 'Create new\'s category';
+        $result = $this -> categoriesList -> getCategories();
+        var_dump($result);
     }
 
     function update() {

@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81650202-19d0-4343-b8a0-b31de26d84e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Controllers/CategoriesController.php" afterDir="false" />
+    <list default="true" id="81650202-19d0-4343-b8a0-b31de26d84e9" name="Default Changelist" comment="Набросал начальный список маршрутов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Configs/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Configs/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Services/CategoriesService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/CategoriesService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/layouts/categories_template_view.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/categories_template_view.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/CategoriesController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +74,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617712333752</updated>
-      <workItem from="1617712334757" duration="14559000" />
+      <workItem from="1617712334757" duration="18501000" />
     </task>
+    <task id="LOCAL-00001" summary="Набросал начальный список маршрутов">
+      <created>1617885461009</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617885461009</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +100,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Набросал начальный список маршрутов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Набросал начальный список маршрутов" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1617871769932">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -107,6 +117,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617880149445" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617885492611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1617885492611" />
     <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1617871833078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
