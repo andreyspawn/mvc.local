@@ -35,9 +35,9 @@ class NewsController extends Controller
             $lastNews = $this->newsService->getLastNews();                // получаем последние новости для правого сайдбара
 
             $this->view->news = $result;
+
             $this->view->lastNews = $lastNews;
             $this->view->categories = $this->categoriesService->getCategories();
-
             $this->view->generate('template_view.phtml', 'news/index.phtml'); // формируем вьюшку
 
         } catch (Exception $e) {

@@ -25,12 +25,10 @@ class CategoriesController extends Controller {
 
     function read() {
         echo 'Create new\'s category';
-        $result = $this -> categoriesList -> getCategories();
-        $this -> view -> categories = $result;
+        $this -> view -> categories = $this->categoriesList->getCategories();
 
-        $this->view->generate('categories_template_view.phtml', 'news/index.phtml'); // формируем вьюшку
+        $this->view->generate('categories_template_view.phtml', 'categories/index.phtml'); // формируем вьюшку
 
-        var_dump($result);die;
     }
 
     function update() {
