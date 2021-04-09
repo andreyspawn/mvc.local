@@ -19,11 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81650202-19d0-4343-b8a0-b31de26d84e9" name="Default Changelist" comment="Набросал начальный список маршрутов">
-      <change afterPath="$PROJECT_DIR$/app/Views/categories/index.phtml" afterDir="false" />
+    <list default="true" id="81650202-19d0-4343-b8a0-b31de26d84e9" name="Default Changelist" comment="Дополнил контроллер вывода категорий новостей">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controllers/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/CategoriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/NewsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Categories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/categories/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/categories/index.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Views/layouts/categories_template_view.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/categories_template_view.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,14 +64,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Views/categories" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\OpenServer\domains\mvc.local\app\Views\categories" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -120,9 +116,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="838" y="418" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617871724302" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1617880149445">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="523" y="163" width="441" height="580" key="NewPhpClassDialog" timestamp="1617919926178">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="523" y="163" width="441" height="580" key="NewPhpClassDialog/0.0.1440.860@0.0.1440.860" timestamp="1617919926178" />
+    <state x="596" y="366" key="NewPhpFileDialog" timestamp="1617919883659">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="596" y="366" key="NewPhpFileDialog/0.0.1440.860@0.0.1440.860" timestamp="1617919883659" />
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617880149445" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1617885492611">
       <screen x="0" y="0" width="1920" height="1040" />

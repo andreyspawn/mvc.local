@@ -35,8 +35,9 @@ class CategoriesController extends Controller {
         echo 'Create new\'s category';
     }
 
-    function delete() {
-        echo 'Create new\'s category';
+    function delete(int $cat_id) {
+        echo 'Delete new\'s category';
+        $this->categoriesList->delCategories($cat_id);
     }
 
 
