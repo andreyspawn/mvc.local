@@ -21,10 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="81650202-19d0-4343-b8a0-b31de26d84e9" name="Default Changelist" comment="Дополнил контроллер вывода категорий новостей">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Components/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Components/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Configs/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Configs/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Controllers/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/CategoriesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Categories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Services/CategoriesService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Services/CategoriesService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Views/categories/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/categories/index.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Views/layouts/categories_template_view.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/app/Views/layouts/categories_template_view.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

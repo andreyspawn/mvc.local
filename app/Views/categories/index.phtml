@@ -17,7 +17,7 @@
                 <td><?= $cat ?></td>
                 <?php endforeach; ?>
                 <td>
-                    <a href="#" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
+                    <a href="categories/update/<?= $category['cat_id']?>" class="settings" title="Settings" data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
                     <a href="categories/delete/<?= $category['cat_id']?>" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
                 </td>
             </tr>

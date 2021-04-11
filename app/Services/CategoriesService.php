@@ -16,4 +16,8 @@ class CategoriesService
     public function getCategories() {
         return $this->categoriesModel->getCategories();
     }
+
+    public function delCategories($cat_id) {
+        return $this->categoriesModel->delCategories($cat_id);
+    }
 }

@@ -3,16 +3,16 @@
 namespace App\Controllers;
 
 use App\Models\Categories;
-use Exception;
-use App\Services\NewsService;
+use App\Services\CategoriesService;
+
 
 class CategoriesController extends Controller {
-    private Categories $categoriesList;
+    private CategoriesService $categoriesList;
 
     function __construct()
     {
         parent::__construct();
-        $this -> categoriesList = new Categories();
+        $this -> categoriesList = new CategoriesService();
     }
 //'categories/create' => 'categories/create',
 //'categories/admin' => 'categories/read',
@@ -37,6 +37,7 @@ class CategoriesController extends Controller {
 
     function delete(int $cat_id) {
         echo 'Delete new\'s category';
+        var_dump($cat_id);die;
         $this->categoriesList->delCategories($cat_id);
     }
 
