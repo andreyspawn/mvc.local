@@ -23,9 +23,9 @@ class Categories extends AbstractModel
         return $sql->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    public function delCategories() {
+    public function delCategories($cat_id) {
         $sql = $this->connection->prepare("DELETE FROM category WHERE ID=:cat_id");
-        var_dump($sql);die;
+        $sql->bindValue(':cat_id',$cat_id);
         $sql->execute();
     }
 }

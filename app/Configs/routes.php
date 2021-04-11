@@ -13,10 +13,10 @@ return [
     'comment' => 'comments/store',
     '^\s*$' => 'index/index',
     //add work with categories
-    'categories/delete/([0-9]+)' => 'categories/delete/$1',
-    'categories/create' => 'categories/create',
-    'categories/update' => 'categories/update',
-    'categories' => 'categories/read',
+    'admin/categories/delete/([0-9]+)' => 'categories/delete/$1',
+    'admin/categories/create' => 'categories/create',
+    'admin/categories/update' => 'categories/update',
+    'admin/categories' => 'categories/read',
 ];
 
 ?>

@@ -52,7 +52,7 @@ class Router
                     $parameters = $segments;
 
                     $controllerObject = new $controllerName;
-var_dump($actionName);die;
+
                     call_user_func_array([$controllerObject, $actionName], $parameters);
 
                     exit();

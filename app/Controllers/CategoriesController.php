@@ -19,8 +19,9 @@ class CategoriesController extends Controller {
 //'categories/update/([0-9]+)' => 'categories/update/$1',
 //'categories/delete/([0-9]+)' => 'categories/delete/$1'
 
-    function create() {
+    function create($cat_code,$cat_name) {
         echo 'Create new\'s category';
+        $this ->view->categories = $this->categoriesList->createCategories($cat_code,$cat_name);
     }
 
     function read() {
@@ -37,8 +38,10 @@ class CategoriesController extends Controller {
 
     function delete(int $cat_id) {
         echo 'Delete new\'s category';
-        var_dump($cat_id);die;
+
         $this->categoriesList->delCategories($cat_id);
+        $this -> view -> categories = $this->categoriesList->getCategories();
+        $this->view->generate('categories_template_view.phtml', 'categories/index.phtml'); // формируем вьюшку
     }
 
 
