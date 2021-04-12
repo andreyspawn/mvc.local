@@ -1,4 +1,4 @@
-<div class="container col-sm-7">
+<div class="container">
     <div class="table-responsive ">
         <div class="table-wrapper">
             <div class="table-title">
@@ -14,7 +14,7 @@
 
             <table class="table table-striped table-hover">
 
-                <thead>
+                <thead class="col-">
                 <tr>
                     <th>#</th>
                     <th>Category's code</th>
@@ -31,9 +31,9 @@
                             <td><?= $cat ?></td>
                         <?php endforeach; ?>
                         <td>
-                            <a href="categories/update/<?= $category['cat_id'] ?>" class="settings" title="Settings"
+                            <a href="/admin/categories/edit/<?= $category['cat_id'] ?>" class="settings" title="Settings"
                                data-toggle="tooltip"><i class="material-icons">&#xE8B8;</i></a>
-                            <a href="categories/delete/<?= $category['cat_id'] ?>" class="delete" title="Delete"
+                            <a href="/admin/categories/delete/<?= $category['cat_id'] ?>" class="delete" title="Delete"
                                data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
                         </td>
                     </tr>

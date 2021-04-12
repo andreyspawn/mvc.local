@@ -42,9 +42,18 @@ class Categories extends AbstractModel
     }
 
     public function getCategoriesByID($cat_id) {
-        $sql = $this->connection->prepare("SELECT `cat_code`,`cat_name` FROM category where `cat_id`=:cat_id");
+        $sql = $this->connection->prepare("SELECT * FROM category where `cat_id`=:cat_id");
         $sql->bindValue(':cat_id',$cat_id, PDO::PARAM_INT);
         $sql->execute();
         return $sql->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function updateCategories($cat_id,$cat_code,$cat_name) {
+        $sql = $this->connection->prepare("UPDATE `category` SET `cat_name`=:cat_name, `cat_code`=:cat_code WHERE `cat_id`=:cat_id");
+        $sql->bindValue(':cat_id',$cat_id, PDO::PARAM_INT);
+        $sql->bindValue(':cat_code',$cat_code, PDO::PARAM_STR);
+        $sql->bindValue(':cat_name',$cat_name, PDO::PARAM_STR);
+        $result = $sql->execute();
+        return $result;
     }
 }

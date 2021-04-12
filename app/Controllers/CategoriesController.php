@@ -7,6 +7,7 @@ use App\Services\CategoriesService;
 
 
 class CategoriesController extends Controller {
+
     private CategoriesService $categoriesList;
 
     function __construct()
@@ -39,10 +40,19 @@ class CategoriesController extends Controller {
 
     }
 
-    public function update($cat_id) {
+    public function edit($cat_id) {
         $this ->view->record = $this->categoriesList->getCategoriesByID($cat_id);
-        var_dump($this ->view->record);die;
-        $this->view->generate('categories_template_view.phtml', 'categories/create.phtml'); // формируем вьюшку
+        $this->view->generate('categories_template_view.phtml', 'categories/edit.phtml'); // формируем вьюшку
+    }
+
+    public function update() {
+        $cat_id = $_POST['cat_id'];
+        $cat_code = $_POST['cat_code'];
+        $cat_name= $_POST['cat_name'];
+        if ($this ->categoriesList->updateCategories($cat_id, $cat_code, $cat_name)) {
+            header('Location: http://mvc.local/admin/categories');
+        }
+        echo "Ошибка изменения категории";
     }
 
     public function delete($cat_id) {

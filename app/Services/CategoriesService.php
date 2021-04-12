@@ -29,4 +29,7 @@ class CategoriesService
         return $this->categoriesModel->getCategoriesByID($cat_id);
     }
 
+    public function updateCategories($cat_id,$cat_code,$cat_name) {
+        return $this->categoriesModel->updateCategories($cat_id,$cat_code,$cat_name);
+    }
 }
