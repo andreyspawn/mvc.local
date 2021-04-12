@@ -14,9 +14,10 @@ return [
     '^\s*$' => 'index/index',
     //add work with categories
     'admin/categories/delete/([0-9]+)' => 'categories/delete/$1',
+    'admin/categories/update/([0-9]+)' => 'categories/update/$1',
     'admin/categories/create' => 'categories/create',
-    'admin/categories/update' => 'categories/update',
-    'admin/categories' => 'categories/read',
+    'admin/categories/store' => 'categories/store',
+    'admin/categories' => 'categories/list',
 ];
 
 ?>

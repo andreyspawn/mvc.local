@@ -20,4 +20,13 @@ class CategoriesService
     public function delCategories($cat_id) {
         return $this->categoriesModel->delCategories($cat_id);
     }
+
+    public function setCategories($cat_code, $cat_name) {
+        return $this->categoriesModel->setCategories($cat_code, $cat_name);
+    }
+
+    public function getCategoriesByID($cat_id) {
+        return $this->categoriesModel->getCategoriesByID($cat_id);
+    }
+
 }
